@@ -1,0 +1,205 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: brown;
+}
+#img1{
+    width: 97px;
+    height: 48px;
+    border-radius: 50px;
+    
+}
+
+/*hedder*/
+#bar {
+    background-color:rgb(189 21 21);
+    display: flex;
+    justify-content: center;
+}
+#bar::before{
+    content: " ";
+    position: absolute;
+    z-index: -1;
+    opacity: 0.5;
+}
+.left {
+    position: absolute;
+    left: 2px;
+    color: white;
+}
+
+.middle {
+    position: relative;
+    top: -10px;
+}
+
+.middle ul {
+    list-style: none;
+    display: inline-flex;
+    position: relative;
+    top: 7px;
+}
+.middle ul li a {
+    text-decoration: none;
+    display: inline;
+    color: beige;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.middle ul li a:hover {
+    background-color: black;
+    border-radius: 23px;
+}
+.fa{
+    padding-left: px;
+}
+.middle ul li a:hover{
+    color: brown;
+}
+.right {
+    position: absolute;
+    right: 2px;
+    color: antiquewhite;
+    top: 2px;
+    padding-top: 8px;
+}
+/*main*/
+#mn::before{
+    content: " ";
+    position: absolute;
+    background: url('copy.jpg') no-repeat center center/cover;
+    top: 1px;
+    height: 513px;
+    width: 100%;
+    border-bottom: 5px solid red;
+    z-index: -1;
+}
+.cover{
+    width: 570px;
+    height: 300px;
+    position: absolute;
+    left: 124px;
+    top: 140px;
+}
+h1{
+    color: white;
+    display: block;
+    font-size: 60px;
+    font-weight: bold;
+}
+h3{
+    color: aqua;
+    font-size: 30px;
+}
+.contact{
+    position: absolute;
+    margin-top: 70px;
+    right: 90px;
+}
+.contact input{
+    margin-bottom: 10px;
+    width: 300px;
+}
+.contact textarea{
+    margin-bottom: 10px;
+    width: 300px;
+}
+.contact button{
+    background-color: yellow;
+    width: 306px;
+}
+/*main contact section*/
+#element{
+    color:aqua;
+    font-size: 50px;
+}
+.ok1{
+    font-size: 30px;
+    text-align: center;
+}
+.ok1 i{
+    margin-right: 30px;
+    color: black;
+}
+.contact p{
+    color: white;
+    font-size: 30px;
+    margin-top: -33px;
+}
+.contact a:first-child:hover{
+    color: rgb(231, 30, 110);
+    cursor: pointer;
+}
+.contact i:last-child:hover{
+    color: rgb(231, 30, 110);
+    cursor: pointer;
+}
+.contact i:nth-child(2):hover{
+   color: blue;
+   cursor: pointer;
+}
+.contact i:nth-child(3):hover{
+    color: blue;
+    cursor: pointer;
+ }
+ .contact i:nth-child(4):hover{
+    color: blue;
+    cursor: pointer; 
+}
+section{
+    background-color: green;
+}
+/*main*/
+.main1{
+    position: absolute;
+    top: 518px;
+}
+.main1 h1{
+    position: relative;
+    color: rgb(230, 32, 32);
+}
+.main1 div{
+    position: relative;
+    width: 300px;
+    height: 200px;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+.main1 img{
+    margin-top: -78px;
+    position: absolute;
+    right: -800px;
+    width: 300px;
+    height: 200px;
+    border-radius: 23px;
+}
+.con1 {
+    position: relative;
+    color-scheme: black;
+
+}
+.con1 h1{
+    margin-left: -22px;
+    font-size: 56px;
+    margin-top: 29px;
+    color: black;
+}
+.con1 img{
+    position: absolute;
+    right: -800px;
+    width: 300px;
+    height: 200px;
+    border-radius: 23px;
+}
+/*footer*/
+footer{
+    position: absolute;
+    top: 1264px;
+    text-align: center;
+    background-color: black;
+    padding: 10px;
+    color: white;
+    width: 98.5%;
+}
